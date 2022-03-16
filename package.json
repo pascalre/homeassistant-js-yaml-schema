@@ -1,9 +1,9 @@
 {
   "name": "homeassistant-js-yaml-schema",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Schema to ignore Home Assistent YAML local tags while parsing or dumping",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "node src/test/test.js",
     "lint": "eslint .  --ext .js",
