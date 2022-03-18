@@ -5,7 +5,7 @@ const util = require('util');
 const yaml = require('js-yaml');
 const { HOMEASSISTANT_SCHEMA } = require('../index');
 
-fs.readFile(path.join(__dirname, 'test.yaml'), 'utf8', (error, data) => {
+fs.readFile(path.join(__dirname, 'test.yml'), 'utf8', (error, data) => {
   let loaded;
 
   if (!error) {

@@ -1,7 +1,7 @@
 {
   "name": "homeassistant-js-yaml-schema",
-  "version": "1.0.0",
-  "description": "Schema to ignore Home Assistent YAML local tags while parsing or dumping",
+  "version": "1.0.1",
+  "description": "Schema to allow js-yaml to process YAML formatted Home Assistent templates that use Home Assistent specific local tags while parsing or dumping.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
@@ -14,7 +14,11 @@
     "url": "git+https://github.com/pascalre/homeassistant-js-yaml-schema.git"
   },
   "keywords": [
-    "homeassistant"
+    "homeassistant",
+    "js-yaml",
+    "yaml",
+    "parser",
+    "schema"
   ],
   "author": "Pascal Reitermann",
   "license": "MIT",
