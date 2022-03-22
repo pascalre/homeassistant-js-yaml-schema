@@ -1,11 +1,11 @@
 {
   "name": "homeassistant-js-yaml-schema",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Schema to allow js-yaml to process YAML formatted Home Assistent templates that use Home Assistent specific local tags while parsing or dumping.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "test": "node src/test/test.js",
+    "test": "jest --coverage",
     "lint": "eslint .  --ext .js",
     "lint-fix": "eslint --fix .  --ext .js"
   },
@@ -34,6 +34,7 @@
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1"
   }
 }

@@ -18,9 +18,6 @@ function build(tags) {
         // eslint-disable-next-line new-cap
         return new model(data);
       },
-      represent(ref) {
-        return ref.data;
-      },
     });
   }
   const tmp = [];
@@ -34,4 +31,3 @@ module.exports.localTags = localTags;
 module.exports.build = build;
 module.exports.homeassistantTags = homeassistantTags;
 module.exports.HOMEASSISTANT_SCHEMA = jsyaml.DEFAULT_SCHEMA.extend(homeassistantTags);
-module.exports.genSchema = () => jsyaml.DEFAULT_SCHEMA.extend(build(localTags));
