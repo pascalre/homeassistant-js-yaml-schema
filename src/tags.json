@@ -1,12 +1,14 @@
 {
   "scalar": [
     "env_var",
-    "include",
+    "include_dir_*",
     "include_dir_list",
-    "include_dir_named",
     "include_dir_merge_list",
-    "include_dir_merge_named"
+    "include_dir_merge_named",
+    "include_dir_named",
+    "include",
+    "secret"
   ],
-  "sequence": [ ],
-  "mapping": [ ]
+  "sequence": [],
+  "mapping": []
 }
