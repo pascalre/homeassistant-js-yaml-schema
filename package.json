@@ -30,8 +30,8 @@
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.18.0",
-    "@typescript-eslint/parser": "^5.18.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.12.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
